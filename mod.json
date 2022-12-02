@@ -4,9 +4,7 @@
     "author": "[cyan]M.Crystal",
     "description":"Rise",
     "version": "0.0.1",
-    "dependencies": [
-        "mindustrinity"
-    ],
+    "dependencies": [ "mindustrinity" ],
     "minGameVersion": "140.4"
 }
     
