@@ -23,7 +23,7 @@
     "requirements": [
         "silicon/15",
         "mindustrinity-iron/25",
-        "steel/7"
+        "mindustrinity-steel/7"
     ],
     "craftEffect": {
         "type": "WaveEffect",

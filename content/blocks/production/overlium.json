@@ -22,7 +22,7 @@
         "power": 3.5,
         "items": {
             "items": [
-                "iron/5",
+                "mindustrinity-iron/5",
                 "coal/2",
                 "sand/2"
             ]

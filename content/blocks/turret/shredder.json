@@ -15,7 +15,7 @@
     "shots": 3,
     "fragBullets": 5,
     "ammoTypes": {
-        "iron": {
+        "mindustrinity-iron": {
             "speed": 2,
             "type":"BasicBulletType",
             "sprite": "shell",
