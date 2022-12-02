@@ -4,9 +4,10 @@
   "health": 260,
   "description": "A tiny mass driver that can shoot less items and has less range.",
   "itemCapacity": 55,
-  "reload": 8,
+  "reload": 20,
   "range": 90,
   "size": 1,
+  "shake": 0.2,
   "consumes": {
     "power": 0.2
   },
