@@ -9,7 +9,7 @@
     "hasPower": true,
     "type": "GenericCrafter",
     "craftTime": 38,
-    "outputItem": "iron/1",
+    "outputItem": "mindustrinity-iron/1",
     "consumes": {
         "power": 2
     },
@@ -22,7 +22,7 @@
     },
     "requirements": [
         "silicon/15",
-        "iron/25",
+        "mindustrinity-iron/25",
         "steel/7"
     ],
     "craftEffect": {

@@ -15,7 +15,7 @@
     "requirements": [
         "lead/50",
         "thorium/80",
-        "infused-aether/140",
+        "mindustrinity-infused-aether/140",
         "silicon/100"
     ],
     "consumes": {

@@ -51,9 +51,9 @@
 		"power": 2,
 		"items": {
 			"items": [
-               "infused-aether/5",
-               "infused-iridium/5",
-               "infused-vulcanite/5"
+               "mindustrinity-infused-aether/5",
+               "mindustrinity-infused-iridium/5",
+               "mindustrinity-infused-vulcanite/5"
 			]
 		},
         "liquid": "cryofluid/2"
