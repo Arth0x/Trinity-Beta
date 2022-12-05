@@ -22,12 +22,13 @@
     "ammoTypes": {
         "mindustrinity-iron": {
             "type":"MissileBulletType",
-            "height" : 4,
-            "width" : 4,
+            "height" : 6,
+            "width" : 6,
             "lifetime": 360,
             "weaveScale": 12,
             "weaveMag": 20,
             "speed": 2.5,
+            "trailchance": 1,
             "homingPower": 0.2,
             "homingRange": 130,
             "splashDamage" : 40,
