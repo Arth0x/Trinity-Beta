@@ -6,13 +6,13 @@
     "targetAir": true,
     "targetGround": false,
     "collidesGround": false,
-	"health": 880,
+	"health": 2880,
 	"reload": 10,
 	"range": 400,
 	"inaccuracy": 2,
     "shoot": {
         "type": "shootAlternate",
-        "spread": 17
+        "spread": 16
 	},
     "drawer": {
         "type": "drawTurret"
@@ -29,7 +29,7 @@
         "colorFrom": "59ABFFFF",
         "colorTo": "59ABFFFF"
 	},
-	"recoil" : 1.5,
+	"recoil" : 4,
 	"rotateSpeed": 3,
 	"shootSound" : "blaster",
 	"hasPower" : true,
@@ -72,7 +72,6 @@
             "colorFrom": "59ABFFFF",
             "colorTo": "59ABFFFF"
         },
-        "pierce": true,
         "frontColor": "FFFFFFF",
         "backColor": "59ABFFFF"
 	},
