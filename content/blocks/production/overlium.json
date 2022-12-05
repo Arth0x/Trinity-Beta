@@ -30,7 +30,7 @@
         },
         "liquid": {
             "liquid": "mindustrinity-aether",
-            "amount": 0.4
+            "amount": 0.3
         }
     },
     "craftEffect": {
@@ -42,11 +42,12 @@
                 "sizeFrom": 15,
                 "sizeTo": 0,
                 "length": 0,
-                "lightColor": "66B1FFFF",
+                "lightColor": "59ABFFFF",
                 "lifetime": 40,
                 "layer": 109,
+                "region": "mindustrinity-star",
                 "colorFrom": "FFFFFFF",
-                "colorTo": "FFFFFFF"
+                "colorTo": "FFFFF80"
             },
             {
                 "type": "ParticleEffect",
@@ -54,28 +55,12 @@
                 "sizeFrom": 30,
                 "sizeTo": 0,
                 "length": 0,
-                "lightColor": "FF0000",
+                "lightColor": "66B1FFFF",
                 "lifetime": 40,
                 "layer": 109,
-                "colorFrom": "A9D8FFFF",
-                "colorTo": "66B1FFFF"
-            },
-            {
-                "type": "ParticleEffect",
-                "line": true,
-                "particles": 17,
-                "offset": 20,
-                "interp": "circleOut",
-                "sizeInterp": "pow5In",
-                "lifetime": 30,
-                "length": 50,
-                "cone": -360,
-                "strokeFrom": 2,
-                "strokeTo": 0,
-                "lenFrom": 6,
-                "lenTo": 0,
-                "colorFrom": "A9D8FFFF",
-                "colorTo": "66B1FFFF"
+                "region": "mindustrinity-star",
+                "colorFrom": "007CFFFF",
+                "colorTo": "59ABFF80"
             },
             {
                 "type": "WaveEffect",
@@ -84,8 +69,8 @@
                 "sizeTo": 26,
                 "strokeFrom": 3.5,
                 "strokeTo": 0,
-                "colorFrom": "A9D8FFFF",
-                "colorTo": "66B1FFFF"
+                "colorFrom": "007CFFFF",
+                "colorTo": "59ABFF80"
             }
         ]
     }
