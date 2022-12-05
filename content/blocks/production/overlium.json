@@ -10,7 +10,7 @@
     "itemCapacity": 20,
     "hasItems": true,
     "liquidCapacity": 200,
-    "craftTime": 35,
+    "craftTime": 60,
     "hasPower": true,
     "ambientSound": "smelter",
     "requirements": [
