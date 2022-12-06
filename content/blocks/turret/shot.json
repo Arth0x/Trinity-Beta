@@ -14,7 +14,7 @@
     "rotateSpeed": 20,
     "targetAir": false,
     "requirements": [ 
-        "platinum/12"
+        "plastanium/12"
     ],
     "ammoTypes": { 
         "mindustrinity-iron": { 
