@@ -1,0 +1,38 @@
+
+{
+    "type": "ItemTurret",
+    "size": 3,
+    "health": 1500,
+    "reload": 60,
+    "shoot": {
+        "shots": 4,
+        "shotDelay": 10
+    },
+    "range": 120 ,
+    "maxAmmo": 10 ,
+    "recoil": 10 ,
+    "rotateSpeed": 20,
+    "targetAir": false,
+    "requirements": [ 
+        "platinum/12"
+    ],
+    "ammoTypes": { 
+        "mindustrinity-iron": { 
+            "type": "ShrapnelBulletType",
+            "width": 2,
+            "height": 20,
+            "damage": 600,
+            "speed": 0,
+            "frontColor": "36454FF",
+            "backColor": "000000",
+            "status": "unmoving",
+            "statusDuration": 30,
+            "ammoMultiplier": 2,
+            "lifetime": 10
+        } 
+    } ,
+    "inaccuracy": 20,
+    "pierceCap": 3,
+    "category": "turret",
+    "research": "fuse"
+}
