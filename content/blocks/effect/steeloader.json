@@ -7,6 +7,6 @@
         "mindustrinity-steel/20"
     ],
     "category": "effect",
-    "size": 2,
-    "speed": 5
+    "size": 1,
+    "speed": 15
 }
