@@ -1,23 +1,22 @@
 {
-  "type": "MassDriver",
-  "name": "Tiny Mass Driver",
-  "health": 260,
-  "description": "A tiny mass driver that can shoot less items and has less range.",
-  "itemCapacity": 55,
-  "reload": 20,
-  "range": 90,
-  "size": 1,
-  "shake": 0.2,
-  "consumes": {
-    "power": 0.2
-  },
-  "requirements": 
-    [
-      "titanium/20",
-      "thorium/12",
-      "copper/15",
-      "mindustrinity-steel/50"
-  ],
-  "category": "distribution",
-  "research": "mass-driver"
+"type": "MassDriver",
+"name": "Tiny Mass Driver",
+"description": "A tiny mass driver that can shoot less items and has less range.",
+"itemCapacity": 55,
+"reload": 40,
+"range": 90,
+"size": 1,
+"shake": 0.2,
+"consumes": {
+"power": 0.2
+},
+"requirements": 
+[
+"titanium/20",
+"thorium/12",
+"copper/15",
+"mindustrinity-steel/50"
+],
+"category": "distribution",
+"research": "mass-driver"
 }
