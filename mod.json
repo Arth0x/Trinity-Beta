@@ -1,7 +1,7 @@
 {
-    "displayName": "Trinity-beta ", 
+    "displayName": "[#009BFF[]]Trinity[[]] [red[]]Beta[[]] ", 
     "name": "trinity-beta",
-    "author": "[cyan[]]P.Crystal",
+    "author": "[cyan[]]P. Crystal",
     "description":"Rise",
     "version": "0.0.1",
     "dependencies": [ "mindustrinity" ],
