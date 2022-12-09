@@ -6,7 +6,7 @@
 	"range": 550,
     "squareSprite": false,
     "outlineColor": "36363CFF",
-	"heatColor": "009BFFFF",
+	"heatColor": "FF5845FF",
 	"recoil": 5,
     "update": true,
     "hasPower": true,
@@ -38,7 +38,7 @@
           "op": "delay",
           "amount": 0.85
           },
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 1,
         "haloRadiusTo": 1,
         "haloRotation": 45,
@@ -60,7 +60,7 @@
           "op": "delay",
           "amount": 0.85
           },
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 1,
         "haloRotation": 45,
         "shapeRotation": 180,
@@ -82,7 +82,7 @@
           "op": "delay",
           "amount": 0.65
           },
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 1,
         "haloRotation": 45,
         "stroke": 0,
@@ -103,7 +103,7 @@
           "op": "delay",
           "amount": 0.65
           },
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 1,
         "haloRotation": 45,
         "shapeRotation": 180,
@@ -125,7 +125,7 @@
           "op": "delay",
           "amount": 0.45
           },
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 1,
         "haloRotation": 45,
         "stroke": 0,
@@ -146,7 +146,7 @@
           "op": "delay",
           "amount": 0.45
           },
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 1,
         "haloRadiusTo": 1,
         "haloRotation": 45,
@@ -169,7 +169,7 @@
           "op": "delay",
           "amount": 0.25
           },
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 1,
         "haloRotation": 45,
          "stroke": 0,
@@ -190,7 +190,7 @@
           "op": "delay",
           "amount": 0.25
           },
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 1,
         "haloRotation": 45,
         "shapeRotation": 180,
@@ -212,7 +212,7 @@
        {
          "type": "FlarePart",
           "color2": "FFFFFF",
-          "color1": "009BFFFF",
+          "color1": "FF5845FF",
           "y": -19.5,
           "rotation": 6,
           "progress": "warmup",
@@ -406,7 +406,7 @@
         "hollow": true,
         "circle": true,
         "layer": 110,
-         "color": "009BFFFF",
+         "color": "FF5845FF",
          "stroke": 0,
         "strokeTo": 2.5,
         "radiusTo": 15,
@@ -418,7 +418,7 @@
        "radius": 3,
         "tri": true,
         "layer": 110,
-         "color": "009BFFFF",
+         "color": "FF5845FF",
           "haloRotateSpeed": 0.7,
            "haloRadius": 15,
          "haloRadiusTo": 15,
@@ -434,7 +434,7 @@
        "radius": 3,
         "tri": true,
         "layer": 110,
-         "color": "009BFFFF",
+         "color": "FF5845FF",
           "haloRotateSpeed": -0.7,
            "haloRadius": 15,
          "haloRadiusTo": 15,
@@ -450,7 +450,7 @@
        "radius": 3,
         "tri": true,
         "layer": 110,
-         "color": "009BFFFF",
+         "color": "FF5845FF",
           "haloRotateSpeed": 1.6,
          "haloRadius": 15,
          "haloRadiusTo": 15,
@@ -466,7 +466,7 @@
         "radius": 2.5,
         "tri": true,
         "layer": 110,
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 10,
         "stroke": 0,
         "strokeTo": 2,
@@ -480,7 +480,7 @@
         "radius": 2.5,
         "tri": true,
         "layer": 110,
-        "color": "009BFFFF",
+        "color": "FF5845FF",
         "haloRadius": 10,
         "shapeRotation": 180,
          "stroke": 0,
@@ -515,9 +515,9 @@
     "lifetime": 20,
     "interp": "circleOut",
     "sizeInterp": "pow5In",
-    "lightColor": "009BFFFF",
+    "lightColor": "FF5845FF",
     "colorFrom": "A9D8FFFF",
-    "colorTo": "009BFFFF",
+    "colorTo": "FF5845FF",
     "cone": 10
     },
     {
@@ -529,9 +529,9 @@
     "lifetime": 35,
     "interp": "circleOut",
     "sizeInterp": "pow5In",
-    "lightColor": "009BFFFF",
+    "lightColor": "FF5845FF",
     "colorFrom": "A9D8FFFF",
-    "colorTo": "009BFFFF",
+    "colorTo": "FF5845FF",
     "cone": 15
     },
     {
@@ -542,9 +542,9 @@
     "length": 110,
     "lifetime": 40,
     "interp": "fastSlow",
-    "lightColor": "009BFFFF",
+    "lightColor": "FF5845FF",
     "colorFrom": "A9D8FFFF",
-    "colorTo": "009BFFFF",
+    "colorTo": "FF5845FF",
     "cone": 15
     },
     {
@@ -555,9 +555,9 @@
     "length": 120,
     "lifetime": 30,
     "interp": "fastSlow",
-    "lightColor": "009BFFFF",
+    "lightColor": "FF5845FF",
     "colorFrom": "A9D8FFFF",
-    "colorTo": "009BFFFF",
+    "colorTo": "FF5845FF",
     "cone": 10
     },
     {
@@ -589,8 +589,8 @@
         "layer": 109,
         "lifetime": 40,
         "region": "exogenesis-tall",
-        "colorFrom": "009BFFFF",
-        "colorTo": "009BFFFF"
+        "colorFrom": "FF5845FF",
+        "colorTo": "FF5845FF"
         },
         {
         "type": "ParticleEffect",
@@ -601,8 +601,8 @@
         "interp": "circleOut",
         "lifetime": 40,
         "layer": 109,
-        "colorFrom": "009BFFFF",
-        "colorTo": "009BFFFF",
+        "colorFrom": "FF5845FF",
+        "colorTo": "FF5845FF",
         "cone": 360
         },
         {
@@ -734,7 +734,7 @@
         "lightRadius": 100,
         "statusDuration": 200,
         "hitSound": "plasmaboom",
-        "trailColor": "009BFFFF",
+        "trailColor": "FF5845FF",
         "trailSinScl": 2.5,
         "trailLength": 10,
         "trailWidth": 10,
@@ -748,7 +748,7 @@
         "height": 45,
         "width": 32,
         "frontColor": "E1F2FFFF",
-        "backColor": "009BFFFF"
+        "backColor": "FF5845FF"
 	    },
 	"requirements": [
         "thorium/7000"
