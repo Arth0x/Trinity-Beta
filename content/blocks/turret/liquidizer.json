@@ -16,7 +16,7 @@
             "speed": 9,
             "puddleSize": 25,
             "lifetime": 120,
-            "drag": 0.01,
+            "drag": 0.06,
             "orbSize": 3,
             "fragBullets": 3,
             "fragBullet": {
@@ -36,7 +36,7 @@
             "speed": 9,
             "puddleSize": 25,
             "lifetime": 120,
-            "drag": 0.01,
+            "drag": 0.06,
             "orbSize": 3,
             "fragBullets": 4,
             "fragBullet": {
@@ -56,7 +56,7 @@
             "speed": 9,
             "puddleSize": 25,
             "lifetime": 120,
-            "drag": 0.01,
+            "drag": 0.06,
             "orbSize": 3,
             "fragBullets": 3,
             "fragBullet": {
@@ -76,7 +76,7 @@
             "speed": 9,
             "puddleSize": 25,
             "lifetime": 120,
-            "drag": 0.01,
+            "drag": 0.06,
             "orbSize": 3,
             "fragBullets": 3,
             "fragBullet": {
@@ -96,7 +96,7 @@
             "speed": 9,
             "puddleSize": 25,
             "lifetime": 120,
-            "drag": 0.01,
+            "drag": 0.06,
             "orbSize": 3,
             "fragBullets": 3,
             "fragBullet": {
