@@ -5,7 +5,7 @@
     "range": 160,
     "health": 1100,
     "reload": 1,
-    "inaccuracy": 0.7,
+    "inaccuracy": 5,
     "velocityRnd": 0.4,
     "shootEffect": "hitMeltdown",
     "ammoTypes": {
@@ -38,7 +38,7 @@
             "lifetime": 50,
             "drag": 0.07,
             "orbSize": 3,
-            "fragBullets": 3,
+            "fragBullets": 4,
             "fragBullet": {
                 "type": "LiquidBulletType",
                 "liquid": "oil",
@@ -46,7 +46,17 @@
                 "puddleSize": 8,
                 "orbSize": 1.5,
                 "speed": 4,
-                "damage" : 2
+                "damage" : 2,
+                "fragBullets": 4,
+                "fragBullet": {
+                    "type": "LiquidBulletType",
+                    "liquid": "oil",
+                    "lifetime": 20,
+                    "puddleSize": 8,
+                    "orbSize": 1.5,
+                    "speed": 4,
+                    "damage" : 2
+                }
             }
         },
         "mindustrinity-acid": {
