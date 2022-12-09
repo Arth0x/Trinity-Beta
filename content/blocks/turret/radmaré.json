@@ -29,9 +29,9 @@
                 "damage" : 2
             }
         },
-        "tar": {
+        "oil": {
             "type": "LiquidBulletType",
-            "liquid": "tar",
+            "liquid": "oil",
             "damage": 10,
             "speed": 9,
             "puddleSize": 15,
@@ -41,7 +41,7 @@
             "fragBullets": 3,
             "fragBullet": {
                 "type": "LiquidBulletType",
-                "liquid": "tar",
+                "liquid": "oil",
                 "lifetime": 20,
                 "puddleSize": 8,
                 "orbSize": 1.5,
