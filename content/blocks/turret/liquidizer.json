@@ -88,6 +88,26 @@
                 "speed": 4,
                 "damage" : 2
             }
+        },
+        "mindustrinity-cryoaether": {
+            "type": "LiquidBulletType",
+            "liquid": "mindustrinity-cryoaether",
+            "damage": 10,
+            "speed": 9,
+            "puddleSize": 25,
+            "lifetime": 120,
+            "drag": 0.01,
+            "orbSize": 3,
+            "fragBullets": 3,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "mindustrinity-cryoaether",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
+                "damage" : 2
+            }
         }
     },
     "requirements": [
