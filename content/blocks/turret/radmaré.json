@@ -17,7 +17,7 @@
             "puddleSize": 15,
             "lifetime": 50,
             "drag": 0.07,
-            "orbSize": 5,
+            "orbSize": 3,
             "fragBullets": 3,
             "fragBullet": {
                 "type": "LiquidBulletType",
@@ -26,6 +26,66 @@
                 "puddleSize": 8,
                 "orbSize": 1.5,
                 "speed": 3,
+                "damage" : 2
+            }
+        },
+        "tar": {
+            "type": "LiquidBulletType",
+            "liquid": "tar",
+            "damage": 10,
+            "speed": 9,
+            "puddleSize": 15,
+            "lifetime": 50,
+            "drag": 0.07,
+            "orbSize": 3,
+            "fragBullets": 3,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "tar",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
+                "damage" : 2
+            }
+        },
+        "mindustrinity-acid": {
+            "type": "LiquidBulletType",
+            "liquid": "mindustrinity-acid",
+            "damage": 10,
+            "speed": 9,
+            "puddleSize": 15,
+            "lifetime": 50,
+            "drag": 0.07,
+            "orbSize": 3,
+            "fragBullets": 3,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "mindustrinity-acid",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
+                "damage" : 2
+            }
+        },
+        "mindustrinity-vulcanite": {
+            "type": "LiquidBulletType",
+            "liquid": "mindustrinity-vulcanite",
+            "damage": 10,
+            "speed": 9,
+            "puddleSize": 15,
+            "lifetime": 50,
+            "drag": 0.07,
+            "orbSize": 3,
+            "fragBullets": 3,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "mindustrinity-vulcanite",
+                "lifetime": 20,
+                "puddleSize": 8,
+                "orbSize": 1.5,
+                "speed": 4,
                 "damage" : 2
             }
         }
