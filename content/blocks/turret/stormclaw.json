@@ -1,5 +1,5 @@
 {
-    "type": "PowerTurret",
+    "type": "ItemTurret",
     "hasPower": true,
     "health": 2500,
     "category": "turret",
@@ -23,16 +23,17 @@
         "colorFrom": "FFF740FF",
         "colorTo": "FFF740FF"
     },
-	"shootType": {
-        "type": "LightningBulletType",
-        "lightningColor": "FFF740FF",
-        "lightningCone": 1,
-        "damage": 367,
-        "Chance": 1,
-        "lightningLength": 230,
-        "lightningChance": 1,
-        "lightningDamage": 150,
-        "collidesAir": true
+	"ammoTypes": {
+        "copper":{
+            "type": "LightningBulletType",
+            "lightningColor": "FFF740FF",
+            "lightningCone": 1,
+            "damage": 367,
+            "lightningLength": 230,
+            "lightningChance": 1,
+            "lightningDamage": 150,
+            "collidesAir": true
+        }
 	},
     "requirements": [
         "lead/650"
