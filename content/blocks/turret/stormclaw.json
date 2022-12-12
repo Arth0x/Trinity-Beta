@@ -19,7 +19,9 @@
         "lightningColor": "FFF740FF",
         "lightningCone": 1,
         "damage": 367,
+        "Chance": 1,
         "lightningLength": 230,
+        "lightningChance": 1,
         "collidesAir": true
 	},
     "requirements": [
