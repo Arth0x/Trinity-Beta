@@ -1,49 +1,111 @@
 {
 	"name": "Prototype W.O.L.F.",
-    "type": "pointLaserTurret",
-    "size": 2,
-    "health": 180,
-    "range": 85,
-    "reload": 1,
-    "shootLength": 10,
-    "targetAir" : true, 
-    "targetGround" : true,
-    "consumes": {
-        "power": 4,
-        "liquid": {
-            "liquid": "water",
-            "amount": 0.2
-        }
-    },
-        "update": true,
-        "hasPower": true,
-        "shootEffect": "hitEmpSpark",
-        "shootSound": "laserbig",
-        "loopSound": "beam",
-        "loopSoundVolume": 1.5,
-        "recoilAmount" : 1.5,
-        "restitution" : 0.04, 
-        "rotateSpeed": 4.5,
-        "shootType" : {
-          "type": "PointLaserBulletType",
-          "damage": 2,
-          "width": 5,
-          "colors":["84F49170", "84F491Aa", "84F491FF", "FFFFFF"],
-          "length": 95,
-          "status": "electrified",
-          "statusDuration": 50,
-          "largeHit": false,
-          "oscScl": 2,
-          "oscMag":	2,
-          "hitEffect": "hitMeltHeal",
-          "drawSize": 100,
-          "incendChance": 0
+    {
+        "localizedName": "Fusion",
+        "description": "Fires a super heated beam of hydrogen plasma to incinrate targets. requires heat and hyrdogen",
+        "type": "ContinuousLiquidTurret",
+        "size": 5,
+        "health": 1900,
+        "range": 200,
+        "smoothReloadSpeed": 0.15,
+        "shootWarmupSpeed": 0.05,
+        "minWarmup": 0.8,
+        "liquidConsumed": 0.6,
+        "consumes" : {
+        "power": 28
         },
-    
+        "outlineColor": "36363CFF",
+        "update": true,
+         "recoilTime": 100,
+        "cooldownTime": 240,
+        "shootY": 3,
+        "hasPower": true,
+        "shootEffect": {
+         "type": "multiEffect",
+        "effects": [
+        {
+        "type": "ParticleEffect",
+        "particles": 12,
+        "length": 100,
+        "lifetime": 55,
+        "line": true,
+        "cone": 40,
+        "lenFrom": 8,
+        "lenTo": 2,
+        "strokeFrom": 3,
+        "strokeTo": 0.5,
+        "colorFrom": "8ca9e8",
+        "colorTo": "6a72f6"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 21,
+        "length": 100,
+        "lifetime": 35,
+        "line": true,
+        "cone": 70,
+        "lenFrom": 8,
+        "lenTo": 5,
+        "strokeFrom": 3,
+        "strokeTo": 0.5,
+        "colorFrom": "8ca9e8",
+        "colorTo": "6a72f6"
+        },
+        {
+        "type": "ParticleEffect",
+        "particles": 24,
+        "length": 140,
+        "lifetime": 25,
+        "line": true,
+        "cone": 40,
+        "lenFrom": 10,
+        "lenTo": 10,
+        "strokeFrom": 3,
+        "strokeTo": 0.5,
+        "colorFrom": "8ca9e8",
+        "colorTo": "6a72f6"
+        }
+        ]
+        },
+        "loopSound": "torch",
+        "loopSoundVolume": 2.5,
+        "shake": 7,
+        "shootSound": "shockBlast",
+        "recoil": 1,
+        "rotateSpeed": 2,
+        "ammoTypes": {
+        "hydrogen": {
+        "type": "ContinuousFlameBulletType",
+        "colors": ["5040d290", "6a72f6aa", "7ba2f6", "a9d4f6", "f3faff"],
+        "damage": 230,
+        "status": "death",
+        "statusDuration": 666,
+        "buildingDamageMultiplier": 0.24,
+        "width": 10.5,
+        "drawFlare": false,
+        "lifetime": 60,
+        "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "lifetime": 15,
+        "length": 65,
+        "cone": -360,
+        "strokeFrom": 2.5,
+        "strokeTo": 0,
+        "lenFrom": 8,
+        "lenTo": 0,
+        "colorFrom": "8ca9e8",
+        "colorTo": "6a8ef6"
+        },
+        "length": 200,
+        "drawSize": 350
+           }
+        },
         "requirements": [
-            "titanium/200",
-            "copper/400",
-            "silicon/200"
+            "silicon/850",
+            "surge-alloy/400"
         ],
-        "category": "turret"
+        "category": "turret",
+        "research": "meltdown"
     }
