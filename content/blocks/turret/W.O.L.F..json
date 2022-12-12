@@ -71,11 +71,10 @@
         "shootSound": "shockBlast",
         "recoil": 1,
         "rotateSpeed": 2,
-    "ammoTypes": {
+        "ammoTypes": {
         "hydrogen": {
-        "type": "ContinuousFlameBulletType",
+        "type": "PointLaserBulletType",
         "colors": ["5040d290", "6a72f6aa", "7ba2f6", "a9d4f6", "f3faff"],
-        "damage": 230,
         "status": "death",
         "statusDuration": 666,
         "buildingDamageMultiplier": 0.24,
