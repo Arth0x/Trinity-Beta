@@ -8,7 +8,7 @@
     "consumes" : {
 		"power": 20
 		},
-    "reload": 15,
+    "reload": 60,
     "rotateSpeed": 5,
     "range": 340,
     "shootEffect": {
