@@ -27,7 +27,7 @@
         "restitution" : 0.04, 
         "rotateSpeed": 4.5,
           "shootType" : {
-          "type": "ContinuousLaserBulletType",
+          "type": "PointLaserBulletType",
           "damage": 2,
           "width": 5,
           "colors":["84F49170", "84F491Aa", "84F491FF", "FFFFFF"],
