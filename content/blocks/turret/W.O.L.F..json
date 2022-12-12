@@ -4,6 +4,7 @@
     "size": 2,
     "health": 180,
     "range": 85,
+    "reload": 1,
     "shootLength": 10,
     "targetAir" : true, 
     "targetGround" : true,
@@ -44,6 +45,5 @@
             "copper/400",
             "silicon/200"
         ],
-        "category": "turret",
-        "research": "1-resist"
+        "category": "turret"
     }
