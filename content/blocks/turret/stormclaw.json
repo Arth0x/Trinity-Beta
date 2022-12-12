@@ -20,6 +20,7 @@
         "lightningCone": 1,
         "damage": 367,
         "lightningLength": 2300,
+        "lightningChance": 2300,
         "collidesAir": true
 	},
     "requirements": [
