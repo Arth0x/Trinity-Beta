@@ -1,82 +1,52 @@
 {
 	"name": "Prototype W.O.L.F.",
-    "type": "PowerTurret",
-    "category": "turret",
-	"size": 6,
-    "targetAir": true,
-    "targetGround": true,
-    "collidesGround": false,
-	"health": 2880,
-	"reload": 140,
-	"range": 600,
-	"inaccuracy": 0,
-    "shoot": {
-        "type": "shootAlternate",
-        "spread": 14
-	},
-    "drawer": {
-        "type": "drawTurret"
-    },     
-	"shootEffect": {
-        "type": "ParticleEffect",
-        "line": true,
-        "particles": 5,
-        "lifetime": 10,
-        "length": 35,
-        "cone": -360,
-        "lenFrom": 5,
-        "lenTo": 0,
-        "colorFrom": "59ABFFFF",
-        "colorTo": "59ABFFFF"
-	},
-	"recoil" : 4,
-	"rotateSpeed": 3,
-	"shootSound" : "blaster",
-	"hasPower" : true,
-	"shootType": {
-        "type" : "BasicBulletType",
-        "sprite" : "mindustrinity-armored-bullet",
-        "status": "corroded",
-        "damage": 50,
-        "height" : 18,
-        "trailColor": "59ABFFFF",
-        "trailLength": 10,
-        "trailWidth": 2,
-        "width" : 13,
-        "hitSize": 10,
-        "speed": 4,
-        "lifetime" : 100,
-        "shrinkX": 0,
-        "shrinkY": 0,
-        "hitEffect": {
-            "type": "ParticleEffect",
-            "line": true,
-            "particles": 7,
-            "lifetime": 15,
-            "length": 35,
-            "cone": -360,
-            "lenFrom": 6,
-            "lenTo": 0,
-            "colorFrom": "59ABFFFF",
-            "colorTo": "59ABFFFF"
+    "type": "LaserTurret",
+    "size": 2,
+    "health": 180,
+    "reload": 40,
+    "range": 85,
+    "shootLength": 10,
+    "targetAir" : true, 
+    "targetGround" : true,
+    "consumes": {
+        "power": 4,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.2
+        }
+    },
+        "update": true,
+        "hasPower": true,
+        "shootEffect": "hitEmpSpark",
+        "firingMoveFract": 0.8,
+        "shootDuration": 130,
+        "shootSound": "laserbig",
+        "loopSound": "beam",
+        "loopSoundVolume": 1.5,
+        "recoilAmount" : 1.5,
+        "restitution" : 0.04, 
+        "rotateSpeed": 4.5,
+          "shootType" : {
+          "type": "ContinuousLaserBulletType",
+          "damage": 2,
+          "width": 5,
+          "colors":["84F49170", "84F491Aa", "84F491FF", "FFFFFF"],
+          "length": 95,
+          "status": "electrified",
+          "statusDuration": 50,
+          "largeHit": false,
+          "oscScl": 2,
+          "oscMag":	2,
+          "hitEffect": "hitMeltHeal",
+          "drawSize": 100,
+          "incendChance": 0
         },
-        "despawnEffect": {
-            "type": "ParticleEffect",
-            "line": true,
-            "particles": 7,
-            "lifetime": 15,
-            "length": 35,
-            "cone": -360,
-            "lenFrom": 6,
-            "lenTo": 0,
-            "colorFrom": "59ABFFFF",
-            "colorTo": "59ABFFFF"
-        },
-        "frontColor": "FFFFFFF",
-        "backColor": "59ABFFFF"
-	},
-
-	"requirements": [
-		"mindustrinity-wolframite/666"
-	]
-}
+    
+        "requirements": [
+            "titanium/200",
+            "copper/400",
+            "silicon/200"
+        ],
+        "category": "turret",
+        "research": "1-resist"
+    }
