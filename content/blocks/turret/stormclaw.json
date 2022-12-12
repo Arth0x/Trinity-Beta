@@ -2,27 +2,27 @@
     "type": "PowerTurret",
     "hasPower": true,
     "health": 2500,
-    "size": 3,
- "consumes" : {
+    "category": "turret",
+    "shootSound": "spark",
+    "size": 5,
+    "consumes" : {
 		"power": 20
 		},
     "reload": 15,
     "rotateSpeed": 5,
-    "range": 200,
- "shoot": {
- "shots": 6
+    "range": 340,
+    "shoot": {
+        "shots": 1
     },
 	"shootType": {
-    "type": "LightningBulletType",
-	"lightningColor": "73FFAEFF",
-	"lightningCone": 1,
-	"damage": 18,
-    "lightningLength": 230,
-    "collidesAir": true
+        "type": "LightningBulletType",
+        "lightningColor": "FFF740FF",
+        "lightningCone": 1,
+        "damage": 367,
+        "lightningLength": 2300,
+        "collidesAir": true
 	},
     "requirements": [
         "lead/650"
-    ],
-    "category": "turret",
-    "shootSound": "spark"
+    ]
 }
