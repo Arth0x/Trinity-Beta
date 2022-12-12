@@ -1,27 +1,25 @@
 {
 	"name": "Prototype W.O.L.F.",
-    {
-        "localizedName": "Fusion",
-        "description": "Fires a super heated beam of hydrogen plasma to incinrate targets. requires heat and hyrdogen",
-        "type": "ContinuousLiquidTurret",
-        "size": 5,
-        "health": 1900,
-        "range": 200,
-        "smoothReloadSpeed": 0.15,
-        "shootWarmupSpeed": 0.05,
-        "minWarmup": 0.8,
-        "liquidConsumed": 0.6,
-        "consumes" : {
-        "power": 28
-        },
-        "outlineColor": "36363CFF",
-        "update": true,
-         "recoilTime": 100,
-        "cooldownTime": 240,
-        "shootY": 3,
-        "hasPower": true,
-        "shootEffect": {
-         "type": "multiEffect",
+    "description": "Fires a super heated beam of hydrogen plasma to incinrate targets. requires heat and hyrdogen",
+    "type": "ContinuousLiquidTurret",
+    "size": 5,
+    "health": 1900,
+    "range": 200,
+    "smoothReloadSpeed": 0.15,
+    "shootWarmupSpeed": 0.05,
+    "minWarmup": 0.8,
+    "liquidConsumed": 0.6,
+    "consumes" : {
+    "power": 28
+    },
+    "outlineColor": "36363CFF",
+    "update": true,
+    "recoilTime": 100,
+    "cooldownTime": 240,
+    "shootY": 3,
+    "hasPower": true,
+    "shootEffect": {
+        "type": "multiEffect",
         "effects": [
         {
         "type": "ParticleEffect",
@@ -66,14 +64,14 @@
         "colorTo": "6a72f6"
         }
         ]
-        },
+    },
         "loopSound": "torch",
         "loopSoundVolume": 2.5,
         "shake": 7,
         "shootSound": "shockBlast",
         "recoil": 1,
         "rotateSpeed": 2,
-        "ammoTypes": {
+    "ammoTypes": {
         "hydrogen": {
         "type": "ContinuousFlameBulletType",
         "colors": ["5040d290", "6a72f6aa", "7ba2f6", "a9d4f6", "f3faff"],
@@ -100,12 +98,12 @@
         },
         "length": 200,
         "drawSize": 350
-           }
-        },
-        "requirements": [
-            "silicon/850",
-            "surge-alloy/400"
-        ],
-        "category": "turret",
-        "research": "meltdown"
-    }
+        }
+    },
+    "requirements": [
+        "silicon/850",
+        "surge-alloy/400"
+    ],
+    "category": "turret",
+    "research": "meltdown"
+}
