@@ -22,7 +22,7 @@
         "type": "ArtilleryBulletType",
         "sprite": "circle-bullet",
         "lightRadius": 80,
-        "lightColor": "BF92F9FF",
+        "lightColor": "FFF740FF",
         "speed": 6,
         "hitSound": "plasmaboom",
         "damage": 500,
@@ -33,16 +33,15 @@
         "splashDamageRadius": 80,
         "height": 25,
         "width": 25,	
-        "trailColor": "BF92F9FF",
+        "trailColor": "FFF740FF",
         "trailLength": 10,
         "trailWidth": 4.5,
         "ammoMultiplier": 4,
         "frontColor": "000000FF",
-        "backColor": "BF92F9FF",
+        "backColor": "FFF740FF",
         "shootEffect": "shootBig",
         "hitEffect": {
             "type": "multiEffect",
-            "layer": "110.001",
             "effects": [
                 {
                     "type": "ParticleEffect",
@@ -55,8 +54,8 @@
                     "interp": "pow3In",
                     "sizeInterp": "pow5Out",
                     "lifetime": 40,
-                    "colorFrom": "BF92F900",
-                    "colorTo": "BF92F9FF"
+                    "colorFrom": "FFF74000",
+                    "colorTo": "FFF740FF"
                 },
                 {
                     "type": "ParticleEffect",
@@ -69,8 +68,8 @@
                     "interp": "pow3In",
                     "sizeInterp": "pow5Out",
                     "lifetime": 50,
-                    "colorFrom": "BF92F900",
-                    "colorTo": "BF92F9FF"
+                    "colorFrom": "FFF74000",
+                    "colorTo": "FFF740FF"
                 },
                 {
                     "type": "ParticleEffect",
@@ -83,8 +82,8 @@
                     "interp": "pow3In",
                     "sizeInterp": "pow5Out",
                     "lifetime": 60,
-                    "colorFrom": "BF92F900",
-                    "colorTo": "BF92F9FF"
+                    "colorFrom": "FFF74000",
+                    "colorTo": "FFF740FF"
                 },
                 {
                     "type": "ParticleEffect",
@@ -97,8 +96,8 @@
                     "interp": "pow3In",
                     "sizeInterp": "pow5Out",
                     "lifetime": 70,
-                    "colorFrom": "BF92F900",
-                    "colorTo": "BF92F9FF"
+                    "colorFrom": "FFF74000",
+                    "colorTo": "FFF740FF"
                 },
                 {
                     "type": "ParticleEffect",
@@ -111,8 +110,8 @@
                     "interp": "pow3In",
                     "sizeInterp": "pow5Out",
                     "lifetime": 80,
-                    "colorFrom": "BF92F900",
-                    "colorTo": "BF92F9FF"
+                    "colorFrom": "FFF74000",
+                    "colorTo": "FFF740FF"
                 },
                 {
                     "type": "ParticleEffect",
@@ -125,8 +124,8 @@
                     "interp": "pow3In",
                     "sizeInterp": "pow5Out",
                     "lifetime": 90,
-                    "colorFrom": "BF92F900",
-                    "colorTo": "BF92F9FF"
+                    "colorFrom": "FFF74000",
+                    "colorTo": "FFF740FF"
                 },
                 {
                     "type": "ParticleEffect",
@@ -149,8 +148,8 @@
                     "interp": "swingIn",
                     "lifetime": 90,
                     "layer": 109,
-                    "colorFrom": "BF92F9FF",
-                    "colorTo": "BF92F9FF"
+                    "colorFrom": "FFF740FF",
+                    "colorTo": "FFF740FF"
                 },
                 {
                     "type": "ParticleEffect",
@@ -190,7 +189,7 @@
                 "lightningDamage": 100,
                 "lightningLength": 9,
                 "lightningLengthRand": 17,
-                "lightningColor": "BF92F9FF",
+                "lightningColor": "FFF740FF",
                 "splashDamage": 50, 
                 "splashDamageRadius": 80,
                 "knockback": -5,
