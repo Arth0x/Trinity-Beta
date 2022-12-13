@@ -1,5 +1,5 @@
 {
-    "type": "ItemTurret",
+    "type": "ContinuousLiquidTurret",
     "hasPower": true,
     "health": 2500,
     "category": "turret",
@@ -8,11 +8,10 @@
     "consumes" : {
 		"power": 20
 		},
-    "reload": 60,
     "rotateSpeed": 5,
     "range": 340,
 	"ammoTypes": {
-        "copper":{
+        "water":{
             "type": "LightningBulletType",
             "lightningColor": "FFF740FF",
             "lightningCone": 1,
