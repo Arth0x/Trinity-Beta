@@ -45,14 +45,15 @@
             "effects": [
                 {
                     "type": "ParticleEffect",
+                    "region": "star",
                     "particles": 1,
                     "sizeFrom": 12,
                     "sizeTo": 0,
                     "interp": "swingIn",
                     "length": 0,
-                    "lifetime": 90,
+                    "lifetime": 260,
                     "colorFrom": "000000FF",
-                    "colorTo": "000000FF" 
+                    "colorTo": "FFF740FF" 
                 }
             ]
         },
