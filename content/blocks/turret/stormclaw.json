@@ -30,6 +30,7 @@
         "ammoMultiplier": 4,
         "shootEffect": "none",
         "trailEffect": "none",
+        "despawnEffect": "none",
         "hitEffect": {
             "type": "multiEffect",
             "effects": [
@@ -39,14 +40,13 @@
                     "particles": 1,
                     "sizeFrom": 12,
                     "sizeTo": 0,
-                    "length": 20,
+                    "length": 120,
                     "lifetime": 600,
                     "colorFrom": "000000FF",
                     "colorTo": "FFF740FF" 
                 }
             ]
         },
-        "despawnEffect": "none",
         "lightning": 1,
         "lightningLength": 2,
         "lightningType": {
@@ -60,13 +60,10 @@
                 "speed": 0,
                 "damage": 0,
                 "lifetime": 600,
-                "collides": false,
-                "absorbable": false,
-                "hittable": false,
                 "lightning": 1,
                 "lightningDamage": 120,
-                "lightningLength": 9,
-                "lightningLengthRand": 17,
+                "lightningLength": 4,
+                "lightningLengthRand": 8,
                 "lightningColor": "FFF740FF"
             }
         }
