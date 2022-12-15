@@ -61,9 +61,3 @@ weapons: [
     }
   }
 ]
-research: {
-  parent: spirit
-  objectives: [
-    recaster
-  ]
-}

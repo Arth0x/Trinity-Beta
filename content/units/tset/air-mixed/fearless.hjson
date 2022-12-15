@@ -114,8 +114,6 @@ weapons: [
     firstShotDelay: 210
     cooldownTime: 800
     shootSound: beam
-    shootStatus: exotic-mod-overburn
-    shootStatusDuration: 800
     shootY: 70
     shake: 20
     bullet: {

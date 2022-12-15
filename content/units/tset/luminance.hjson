@@ -1329,7 +1329,7 @@ abilities: [
     sectorRad: 0.4
     rotateSpeed: 5
     color: e65555
-    status: exotic-mod-vulnerability
+    status: wet
     statusDuration: 80
   } 
   {

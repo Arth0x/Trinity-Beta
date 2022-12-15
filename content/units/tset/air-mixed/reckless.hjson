@@ -76,7 +76,3 @@ abilities: [
     range: 45
   }
 ]
-research: {
-  parent: victory
-  objectives: [recreator]
-}
