@@ -6,10 +6,10 @@ const free = new JavaAdapter(Planet, {
     }
 }, "free", Planets.sun, 1);
 const sS = require("sectorSize");
-sS.planetGrid(free, 3.3);
+sS.planetGrid(free, 1);
 free.generator = new ErekirPlanetGenerator();
 free.atmosphereColor = Color.valueOf("0088FF");
-free.atmosphereRadIn = 0.6;
+free.atmosphereRadIn = 0.01;
 free.atmosphereRadOut = 0.8;
 free.localizedName = "Vivolus";;
 free.visible = true;
