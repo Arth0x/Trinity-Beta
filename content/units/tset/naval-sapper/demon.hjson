@@ -360,7 +360,6 @@ abilities: [
     rotateSpeed: 3.5
     blinkScl: 100
     shootSound: none
-    status: exotic-mod-charged
   }
 ]
 deathExplosionEffect: {

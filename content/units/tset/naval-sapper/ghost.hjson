@@ -56,14 +56,6 @@ weapons: [
     backColor: 6d56bf
     lightColor: a488eb
     lifetime: 180
-    status: sapped
-    statusDuration: 1080
   }
 }
 ]
-research: {
-  parent: fiend
-  objectives: [
-    alterator
-  ]
-}

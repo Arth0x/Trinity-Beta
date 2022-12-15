@@ -14,7 +14,7 @@ trailScl: 8
 trailLength: 150
 ammoType: {
   type: ItemAmmoType
-  item: shadow
+  item: copper
   ammoPerItem: 6
 }
 immunities: [
