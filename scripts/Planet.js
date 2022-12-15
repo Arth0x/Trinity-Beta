@@ -6,7 +6,7 @@ const free = new JavaAdapter(Planet, {
     }
 }, "free", Planets.sun, 1);
 const sS = require("sectorSize");
-sS.planetGrid(free, 1);
+sS.planetGrid(free, 1.2);
 free.generator = new ErekirPlanetGenerator();
 free.atmosphereColor = Color.valueOf("0088FF");
 free.atmosphereRadIn = 0.01;
