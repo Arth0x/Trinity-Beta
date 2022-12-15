@@ -223,7 +223,6 @@ abilities: [
       colorTo: 84f59175
       region: particle
     }
-    effect: exotic-mod-regeneration
     range: 85
     reload: 1
     duration: 5

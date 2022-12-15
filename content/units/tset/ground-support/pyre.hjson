@@ -57,9 +57,3 @@ abilities: [
     cooldown: 180
   }
 ]
-research: {
-  parent: spark
-  objectives: [
-    recaster
-  ]
-}
