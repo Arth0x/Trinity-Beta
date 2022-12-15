@@ -81,7 +81,3 @@ weapons: [
   }
 }
 ]
-research: {
-  parent: outbreak
-  objectives: [recreator]
-}

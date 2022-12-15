@@ -26,8 +26,6 @@ weapons: [
     shootCone: 360
     reload: 320
     firstShotDelay: 30
-    shootStatus: exotic-mod-hyperdrive
-    shootStatusDuration: 35
     shake: 6
     bullet: {
       damage: 0
@@ -143,9 +141,3 @@ abilities: [
     }
   }
 ]
-research: {
-  parent: excalibur
-  objectives: [
-    alterator
-  ]
-}

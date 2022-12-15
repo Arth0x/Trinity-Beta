@@ -66,9 +66,3 @@ abilities: [
     }
   }
 ]
-research: {
-  parent: phage
-  objectives: [
-    alterator
-  ]
-}

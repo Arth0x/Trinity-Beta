@@ -45,8 +45,6 @@ weapons: [
       collides: false
       hittable: false
       absorbable: false
-      status: exotic-mod-emp
-      statusDuration: 150
       hitEffect: none
       despawnEffect: none
       shootEffect: {
