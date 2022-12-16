@@ -1,19 +1,25 @@
 {
-    "name": "[red]BETA",
+    "name": "Larva Assembler",
     "type": "UnitAssembler",
     "health": 615,
     "size": 5,
     "configurable": false,
     "consumes": {
-        "power": 2
+        "power": 4.6,
+        "liquids": {
+			"liquids": [
+                "mindustrinity-vulcanite/2.4"         
+ 			]
+		}
     },
     "plans": [
         {
-            "unit": "mono",
+            "unit": "latum",
             "time": 720,
             "requirements": [
-                "copper-wall/6",
-                "copper-wall-large/5"
+                "renale/6",
+                "mindustrinity-steel-wall/25",
+                "phase-wall/12"
             ]
         }
     ],

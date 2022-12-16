@@ -1,5 +1,5 @@
 {
-    "name": "[red]BETA",
+    "name": "Larva Factory",
     "type": "UnitFactory",
     "health": 615,
     "size": 3,
@@ -12,8 +12,9 @@
             "unit": "mono",
             "time": 720,
             "requirements": [
-                "silicon/60",
-                "mindustrinity-iron/75"
+                "silicon/10",
+                "mindustrinity-iron/5",
+                "pyratite/5"
             ]
         }
     ],
