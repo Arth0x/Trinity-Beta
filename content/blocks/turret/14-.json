@@ -55,10 +55,10 @@
         }
     },
     "requirements": [
-        "iron/25",
-        "steel/30",
+        "mindustrinity-iron/25",
+        "mindustrinity-steel/30",
         "titanium/50",
-        "infused-aether/20"
+        "mindustrinity-infused-aether/20"
     ],
     "shootType": {
         "type": "BasicBulletType",
