@@ -30,7 +30,7 @@
     "sectorSeed": 0,
     "bloom": false,
     "visible": true,
-    "atmosphereColor": "d7ff7c",
+    "atmosphereColor": "7DCFE8",
     "iconColor": "7DCFE8",
     "hasAtmosphere": true,
     "allowSectorInvasion": false,
