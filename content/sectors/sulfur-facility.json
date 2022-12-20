@@ -1,8 +1,8 @@
 {
-    "localizedName": "Atlas's Forterss",
+    "localizedName": "Sulfur Facility",
     "description": "A lifely river of the life essence.",
-    "sector": 19,
+    "sector": 27,
     "captureWave": 60,
     "difficulty": 3,
-    "research": "sulfur-facility"
+    "research": "frozenForest"
 }
