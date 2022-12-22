@@ -3,6 +3,6 @@
     "description": "A lifely river of the life essence.",
     "sector": 19,
     "captureWave": 60,
-    "difficulty": 3,
+    "difficulty": 30,
     "research": "sulfur-facility"
 }
