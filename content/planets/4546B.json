@@ -12,6 +12,7 @@
     "drawOrbit": false,
     "orbitTime": 15,
     "defaultEnv": 14,
+    "iconColor": "7f7f7f",
     "defaultCore": "core-shard",
     "clearSectorOnLose": true,
     "mesh": {
