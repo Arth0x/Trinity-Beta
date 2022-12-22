@@ -3,5 +3,6 @@
     "description": "A lifely river of the life essence.",
     "planet": "4546B",
     "difficulty": 133,
+    "sector": 1,
     "research": "frozenForest"
 }
