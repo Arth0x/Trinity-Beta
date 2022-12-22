@@ -1,8 +1,7 @@
 {
     "localizedName": "Sulfur Facility",
     "description": "A lifely river of the life essence.",
-    "sector": 27,
-    "captureWave": 60,
-    "difficulty": 3,
+    "planet": "4546B",
+    "difficulty": 133,
     "research": "frozenForest"
 }
