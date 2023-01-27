@@ -9,7 +9,6 @@
     "hasPower": true,
     "type": "GenericCrafter",
     "craftTime": 38,
-    "outputItem": "mindustrinity-iron/1",
     "consumes": {
         "power": 2
     },
