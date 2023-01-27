@@ -1,6 +1,6 @@
 {
     "name": "Radio",
-    "category": "crafting",
+    "category": "effect",
     "description": "You can chill with everytype music. Even custome one! Go in the mod folder -> sounds and replace music by your own (must be in .mp3)",
     "size": 2,
     "health": 250,
