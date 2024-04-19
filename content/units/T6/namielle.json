@@ -268,7 +268,7 @@
         },
         {
             "type": "StatusFieldAbility",
-            "effect": "mindustrinity-build",
+            "effect": "wet",
             "range": 165,
             "reload": 60,
             "duration": 300,
