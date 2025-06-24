@@ -65,8 +65,7 @@
     "oscMag": "default / 1.33",
     "hitShake": 2,
     "range": 600,
-    "trailLength": 8,
-    "hitEffect": "hitSpark"
+    "trailLength": 8
   },
   "requirements": [
     "copper/150",
