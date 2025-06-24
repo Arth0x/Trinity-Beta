@@ -46,8 +46,6 @@
   "shootSound": "none",
   "loopSound": "largeBeam",
   "loopSoundVolume": 1.0,
-  "outlineColor": "darkOutline",
-  "unitSort": "slowest",
   "consume": {
     "power": 16,
     "liquids": [
