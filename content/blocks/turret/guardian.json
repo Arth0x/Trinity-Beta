@@ -93,8 +93,6 @@
     }
   },
   "requirements": [
-    "carbide/150",
-    "seton-alloy/80",
-    "senior-processor/75"
+    "copper/150"
   ]
 }
