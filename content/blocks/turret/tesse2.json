@@ -16,8 +16,8 @@
     "chargeSound": "none",
     "moveWhileCharging": true,
     "drawer": {
-    "type": "drawTurret",
-    "basePrefix": "genesux-"
+        "type": "drawTurret",
+        "basePrefix": "genesux-"
     },
     "shoot": {
     "firstShotDelay": 200
