@@ -17,10 +17,10 @@
   "canOverdrive": false,
   "hasPower": true,
   "drawer": {
-    "type": "drawTurret",
+    "type": "DrawTurret",
     "parts": [ {
         "type": "RegionPart",
-        "region": "-charger",
+        "suffix": "-charger",
         "mirror": true,
         "under": true,
         "moveRot": 10,
@@ -29,7 +29,7 @@
       },
       {
         "type": "RegionPart",
-        "region": "-side",
+        "suffix": "-side",
         "mirror": true,
         "under": true,
         "moveRot": 10,
@@ -38,7 +38,7 @@
       },
       {
         "type": "RegionPart",
-        "region": "-barrel",
+        "suffix": "-barrel",
         "moveY": -7.5,
         "progress": "recoil"
       }
@@ -66,7 +66,7 @@
     "hitShake": 2,
     "range": 600,
     "trailLength": 8,
-            "color": "#FF4040",
+            "color": "#FFFF00",
             "beamEffectSize": 3,
             "length": 640,
             "drawSize": 350,
@@ -79,7 +79,7 @@
                 "strokeTo": 0,
                 "lenFrom": 8,
                 "lenTo": 0,
-                "colorFrom": "#FF0000",
+                "colorFrom": "#3c50ff",
                 "colorTo": "#FF0000"
             } 
         }
