@@ -1,6 +1,6 @@
 {
   "name": "Concentration",
-  "type": "ContinuousOverheatTurret",
+  "type": "ContinuousLaserTurret",
   "category": "turret",
   "size": 5,
   "range": 600,
