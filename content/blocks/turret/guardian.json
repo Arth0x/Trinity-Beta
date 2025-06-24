@@ -1,90 +1,100 @@
 {
-  "turret": {
-    "name": "concentration",
-    "class": "ContinuousTurret",
-    "requirements": {
-      "category": "turret",
-      "items": {
-        "carbide": 150,
-        "setonAlloy": 80,
-        "seniorProcessor": 75
+  "name": "guardia",
+  "type": "ContinuousTurret",
+  "category": "turret",
+  "size": 5,
+  "range": 600,
+  "health": 300,
+  "armor": 10,
+  "rotateSpeed": 1.45,
+  "aimChangeSpeed": 1.75,
+  "liquidConsumed": 0.2,
+  "minWarmup": 0.8,
+  "warmupMaintainTime": 45,
+  "shootWarmupSpeed": 0.04,
+  "shootCone": 360,
+  "shootY": 16,
+  "canOverdrive": false,
+  "hasPower": true,
+  "drawer": {
+    "type": "DrawTurret",
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-charger",
+        "mirror": true,
+        "under": true,
+        "moveRot": 10,
+        "moveX": 4.677,
+        "moveY": 6.8
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-side",
+        "mirror": true,
+        "under": true,
+        "moveRot": 10,
+        "moveX": 2.75,
+        "moveY": 2.0
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel",
+        "moveY": -7.5,
+        "progress": "recoil"
       }
-    },
-    "overheatSystem": {
-      "overheatTime": 900,
-      "overheatCoolAmount": 3,
-      "slowDownReloadTime": 150,
-      "chargeTime": 300,
-      "maxHeatEffectChance": 0.3,
-      "heatEffect": "reactorsmoke"
-    },
-    "stats": {
-      "shootWarmupSpeed": 0.04,
-      "shootCone": 360,
-      "aimChangeSpeed": 1.75,
-      "rotateSpeed": 1.45,
-      "canOverdrive": false,
-      "shootY": 16,
-      "minWarmup": 0.8,
-      "warmupMaintainTime": 45,
-      "outlineColor": "darkOutline",
-      "size": 5,
-      "range": 600,
-      "scaledHealth": 300,
-      "armor": 10,
-      "unitSort": "slowest",
-      "consumePower": 16,
-      "consumeLiquidPerSecond": {
-        "water": 0.2
-      }
-    },
-    "drawer": {
-      "parts": [
-        {
-          "name": "-charger",
-          "mirror": true,
-          "under": true,
-          "moveRot": 10,
-          "moveX": 4.677,
-          "moveY": 6.8
-        },
-        {
-          "name": "-side",
-          "mirror": true,
-          "under": true,
-          "moveRot": 10,
-          "moveX": 2.75,
-          "moveY": 2
-        },
-        {
-          "name": "-barrel",
-          "moveY": -7.5,
-          "progress": "Warmup"
-        }
-      ]
-    },
-    "sound": {
-      "shootSound": "none",
-      "loopSound": "largeBeam",
-      "loopSoundVolume": 1.0
-    },
-    "bullet": {
-      "class": "UpgradePointLaserBulletType",
+    ]
+  },
+  "shootSound": "none",
+  "loopSound": "largeBeam",
+  "loopSoundVolume": 1.0,
+  "consumes": {
+    "power": 16
+  },
+  "overheat": {
+    "overheatTime": 900,
+    "coolAmount": 3,
+    "slowReload": 150,
+    "chargeTime": 300,
+    "maxHeatEffectChance": 0.3,
+    "heatEffect": "reactorsmoke"
+  },
+  "ammoTypes": {
+    "xenFluid": {
+      "type": "PointLaserBulletType",
       "damage": 200,
-      "shieldDamageMultiplier": 2,
+      "shieldDamageMultiplier": 2.0,
       "buildingDamageMultiplier": 0.5,
       "damageInterval": 6,
-      "statusEffect": "wet",
-      "statusDuration": 60,
       "sprite": "laser-white",
-      "trailLength": 8,
+      "status": "emp3",
+      "statusDuration": 60,
       "oscScl": 2,
       "oscMag": 0.3,
+      "hitShake": 2,
       "range": 600,
-      "chargeReload": 300,
-      "lerpReload": 10,
-      "maxDamageMultiplier": 5,
-      "bundleName": "coucou"
+      "trailLength": 8,
+      "color": "#FFFF00",
+      "beamEffectSize": 3,
+      "length": 640,
+      "drawSize": 350,
+      "hitEffect": {
+        "type": "ParticleEffect",
+        "line": true,
+        "particles": 7,
+        "cone": -360,
+        "strokeFrom": 2.5,
+        "strokeTo": 0,
+        "lenFrom": 8,
+        "lenTo": 0,
+        "colorFrom": "#3c50ff",
+        "colorTo": "#FF0000"
+      }
     }
-  }
+  },
+  "requirements": [
+    "carbide/150",
+    "seton-alloy/80",
+    "senior-processor/75"
+  ]
 }
