@@ -1,7 +1,7 @@
 {
   "concentration": {
     "type": "ContinuousOverheatTurret",
-    "name": "concentration",
+    "name": "cyn",
     "requirements": {
       "category": "turret",
       "items": {
