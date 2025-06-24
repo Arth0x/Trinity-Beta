@@ -1,0 +1,82 @@
+{
+  "concentration": {
+    "type": "ContinuousOverheatTurret",
+    "name": "concentration",
+    "requirements": {
+      "category": "turret",
+      "items": {
+        "carbide": 150,
+        "setonAlloy": 80,
+        "seniorProcessor": 75
+      }
+    },
+    "shootType": {
+      "type": "UpgradePointLaserBulletType",
+      "damage": 200,
+      "shieldDamageMultiplier": 2.0,
+      "hitEffect": "NHFx.hitSpark",
+      "buildingDamageMultiplier": 0.5,
+      "damageInterval": 6,
+      "sprite": "laser-white",
+      "status": "NHStatusEffects.emp3",
+      "statusDuration": 60,
+      "oscScl": "default / 1.77",
+      "oscMag": "default / 1.33",
+      "hitShake": 2,
+      "range": 600,
+      "trailLength": 8
+    },
+    "drawer": {
+      "type": "DrawTurret",
+      "parts": [
+        {
+          "type": "RegionPart",
+          "suffix": "-charger",
+          "mirror": true,
+          "under": true,
+          "moveRot": 10,
+          "moveX": 4.677,
+          "moveY": 6.8
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-side",
+          "mirror": true,
+          "under": true,
+          "moveRot": 10,
+          "moveX": 2.75,
+          "moveY": 2.0
+        },
+        {
+          "type": "RegionPart",
+          "suffix": "-barrel",
+          "moveY": -7.5,
+          "progress": "curve(Interp.pow2Out)"
+        }
+      ]
+    },
+    "shootSound": "Sounds.none",
+    "loopSound": "NHSounds.largeBeam",
+    "loopSoundVolume": 1.0,
+    "shootWarmupSpeed": 0.04,
+    "shootCone": 360.0,
+    "aimChangeSpeed": 1.75,
+    "rotateSpeed": 1.45,
+    "canOverdrive": false,
+    "shootY": 16.0,
+    "minWarmup": 0.8,
+    "warmupMaintainTime": 45,
+    "outlineColor": "Pal.darkOutline",
+    "size": 5,
+    "range": 600.0,
+    "scaledHealth": 300,
+    "armor": 10,
+    "unitSort": "NHUnitSorts.slowest",
+    "consume": {
+      "power": 16,
+      "liquids": {
+        "xenFluid": 0.2
+      }
+    }
+  }
+}
