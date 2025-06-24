@@ -1,6 +1,6 @@
 {
-  "name": "Concentration",
-  "type": "ContinuousLaserTurret",
+  "name": "Cyn",
+  "type": "ContinuousLiquidTurret",
   "category": "turret",
   "size": 5,
   "range": 600,
