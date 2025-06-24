@@ -47,10 +47,7 @@
   "loopSound": "largeBeam",
   "loopSoundVolume": 1.0,
   "consume": {
-    "power": 16,
-    "liquids": [
-      "water/0.2"
-    ]
+    "power": 16
   },
   "shootType": {
     "type": "UpgradePointLaserBulletType",
