@@ -1,0 +1,52 @@
+{
+  "type": "ContinuousOverheatTurret",
+  "name": "continuous-overheat-turret",
+  "shootCone": 360.0,
+  "overheatTime": 900.0,
+  "overheatCoolAmount": 3.0,
+  "slowDownReloadTime": 150.0,
+  "chargeTime": 300.0,
+  "maxHeatEffectChance": 0.3,
+  "heatEffect": "reactorsmoke",
+  "bars": [
+    {
+      "name": "charge",
+      "color": ["lightSky", "darkEnrFront"],
+      "value": "chargeProgress / chargeTime"
+    },
+    {
+      "name": "overheat",
+      "color": {
+        "condition": "requireCompleteCooling",
+        "true": "redderDust",
+        "false": "powerLight"
+      },
+      "value": "overheat / overheatTime"
+    }
+  ],
+  "stats": {
+    "overheatCooldown": {
+      "value": "overheatTime / overheatCoolAmount / 60",
+      "unit": "seconds"
+    },
+    "booster": {
+      "dynamic": true
+    }
+  },
+  "build": {
+    "class": "ContinuousOverheatTurretBuild",
+    "fields": {
+      "overheat": 0.0,
+      "slowDownReload": 0.0,
+      "chargeProgress": 0.0,
+      "requireCompleteCooling": false
+    },
+    "methods": {
+      "updateTile": "conditionalSuperUpdate",
+      "coolDown": "decreaseOverheat",
+      "updateBullet": "applyHeatAndSlowReload",
+      "forceCoolDown": "resetHeatAndProgress",
+      "activeSoundVolume": "shootWarmup"
+    }
+  }
+}
