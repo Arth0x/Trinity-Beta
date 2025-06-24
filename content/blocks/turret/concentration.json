@@ -1,6 +1,6 @@
 {
   "name": "Cyn",
-  "type": "ContinuousLiquidTurret",
+  "type": "ContinuousTurret",
   "category": "turret",
   "size": 5,
   "range": 600,
@@ -59,7 +59,7 @@
   "buildingDamageMultiplier": 0.5,
   "damageInterval": 6,
   "sprite": "laser-white",
-  "status": "emp3",
+  "status": "wet",
   "statusDuration": 60,
   "oscScl": 2,
   "oscMag": 0.3,
