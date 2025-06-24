@@ -53,34 +53,58 @@
   
   "ammoTypes": {
         "water": {
-            "type": "PointLaserBulletType",
-    "damage": 200,
-    "shieldDamageMultiplier": 2.0,
-    "buildingDamageMultiplier": 0.5,
-    "damageInterval": 6,
-    "sprite": "laser-white",
-    "status": "wet",
-    "statusDuration": 60,
-    "oscScl": "1",
-    "oscMag": "1",
-    "hitShake": 2,
-    "range": 600,
-    "trailLength": 8,
-            "color": "#FFFF00",
-            "beamEffectSize": 3,
-            "length": 640,
-            "drawSize": 350,
-            "hitEffect": {
-                "type": "ParticleEffect",
-                "line": true,
-                "particles": 7,
-                "cone": -360,
-                "strokeFrom": 2.5,
-                "strokeTo": 0,
-                "lenFrom": 8,
-                "lenTo": 0,
-                "colorFrom": "#3c50ff",
-                "colorTo": "#FF0000"
+  "type": "PointLaserBulletType",
+  "damage": 200,
+  "shieldDamageMultiplier": 2.0,
+  "buildingDamageMultiplier": 0.5,
+  "damageInterval": 6,
+  "sprite": "laser-white",
+  "status": "emp3",
+  "statusDuration": 60,
+  "oscScl": 2,
+  "oscMag": 0.3,
+  "trailLength": 8,
+  "color": "#FFFF00",
+  "beamEffectSize": 3,
+  "length": 640,
+  "drawSize": 350,
+
+  "hitEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "cone": -360,
+    "strokeFrom": 2.5,
+    "strokeTo": 0,
+    "lenFrom": 8,
+    "lenTo": 0,
+    "colorFrom": "#3c50ff",
+    "colorTo": "#FF0000"
+  },
+
+  "chargeEffects": [
+    {
+      "type": "CircleShapeEffect",
+      "radius": 21,
+      "stroke": 6,
+      "rotateSpeed": 1.8,
+      "color": "#FFFF00",
+      "layer": "bullet"
+    },
+    {
+      "type": "CircleShapeEffect",
+      "radius": 25,
+      "stroke": 7.2,
+      "rotateSpeed": -1.1,
+      "color": "#FFFF00",
+      "layer": "bullet"
+    }
+  ],
+
+  "lightColor": "#FFFF00",
+  "lightOpacity": 0.76,
+  "lightRadius": 24
+
             } 
         }
     
