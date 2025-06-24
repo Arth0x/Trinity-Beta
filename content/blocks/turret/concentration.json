@@ -17,8 +17,7 @@
   "hasPower": true,
   "drawer": {
     "type": "drawTurret",
-    "parts": [
-      {
+    "parts": [ {
         "type": "RegionPart",
         "region": "-charger",
         "mirror": true,
@@ -40,7 +39,7 @@
         "type": "RegionPart",
         "region": "-barrel",
         "moveY": -7.5,
-        "progress": "curve(Interp.pow2Out)"
+        "progress": "recoil"
       }
     ]
   },
