@@ -53,22 +53,15 @@
     "ammoTypes": {
         "water": {
             "type": "PointLaserBulletType",
-            "damage": 200,
-            "shieldDamageMultiplier": 2.0,
-            "buildingDamageMultiplier": 0.5,
-            "damageInterval": 6,
-            "status": "wet",
-            "statusDuration": 60,
-            "oscScl": 2,
-            "oscMag": 0.3,
-            "trailLength": 8,
-            "color": "#FFFF00",
+            "color": "#FF4040",
+            "status": "solved",
             "beamEffectSize": 3,
+            "oscScl": 4,
             "length": 640,
             "drawSize": 350,
+            "statusDuration": 540,
             "hitEffect": {
                 "type": "ParticleEffect",
-                "color": "#FF4040",
                 "line": true,
                 "particles": 7,
                 "cone": -360,
@@ -76,14 +69,10 @@
                 "strokeTo": 0,
                 "lenFrom": 8,
                 "lenTo": 0,
-                "colorFrom": "#3c50ff",
+                "colorFrom": "#FF0000",
                 "colorTo": "#FF0000"
-            },
-            "lightColor": "#FFFF00",
-            "lightOpacity": 0.76,
-            "lightRadius": 24,
-            
-        } 
+            } 
+        }
     },
     "requirements": [
         "copper/150",
