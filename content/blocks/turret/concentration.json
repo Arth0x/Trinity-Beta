@@ -57,7 +57,6 @@
             "shieldDamageMultiplier": 2.0,
             "buildingDamageMultiplier": 0.5,
             "damageInterval": 6,
-            "sprite": "laser-white",
             "status": "wet",
             "statusDuration": 60,
             "oscScl": 2,
@@ -82,7 +81,25 @@
             },
             "lightColor": "#FFFF00",
             "lightOpacity": 0.76,
-            "lightRadius": 24
+            "lightRadius": 24,
+            "chargeEffects": [
+                {
+                    "type": "CircleShapeEffect",
+                    "radius": 21,
+                    "stroke": 6,
+                    "rotateSpeed": 1.8,
+                    "color": "#FFFF00",
+                    "layer": "bullet"
+                },
+                {
+                    "type": "CircleShapeEffect",
+                    "radius": 25,
+                    "stroke": 7.2,
+                    "rotateSpeed": -1.1,
+                    "color": "#FFFF00",
+                    "layer": "bullet"
+                }
+            ]
         } 
     },
     "requirements": [
