@@ -1,6 +1,6 @@
 {
     "name": "Cyn",
-    "type": "ContinuousTurret",
+    "type": "ContinuousLiquidTurret",
     "category": "turret",
     "size": 5,
     "range": 600,
@@ -53,15 +53,22 @@
     "ammoTypes": {
         "water": {
             "type": "PointLaserBulletType",
-            "color": "#FF4040",
-            "status": "solved",
+            "damage": 200,
+            "shieldDamageMultiplier": 2.0,
+            "buildingDamageMultiplier": 0.5,
+            "damageInterval": 6,
+            "status": "wet",
+            "statusDuration": 60,
+            "oscScl": 2,
+            "oscMag": 0.3,
+            "trailLength": 8,
+            "color": "#FFFF00",
             "beamEffectSize": 3,
-            "oscScl": 4,
             "length": 640,
             "drawSize": 350,
-            "statusDuration": 540,
             "hitEffect": {
                 "type": "ParticleEffect",
+                "color": "#FF4040",
                 "line": true,
                 "particles": 7,
                 "cone": -360,
@@ -69,10 +76,31 @@
                 "strokeTo": 0,
                 "lenFrom": 8,
                 "lenTo": 0,
-                "colorFrom": "#FF0000",
+                "colorFrom": "#3c50ff",
                 "colorTo": "#FF0000"
-            } 
-        }
+            },
+            "lightColor": "#FFFF00",
+            "lightOpacity": 0.76,
+            "lightRadius": 24,
+            "chargeEffects": [
+                {
+                    "type": "CircleShapeEffect",
+                    "radius": 21,
+                    "stroke": 6,
+                    "rotateSpeed": 1.8,
+                    "color": "#FFFF00",
+                    "layer": "bullet"
+                },
+                {
+                    "type": "CircleShapeEffect",
+                    "radius": 25,
+                    "stroke": 7.2,
+                    "rotateSpeed": -1.1,
+                    "color": "#FFFF00",
+                    "layer": "bullet"
+                }
+            ]
+        } 
     },
     "requirements": [
         "copper/150",
