@@ -131,7 +131,7 @@
                     "xScl": 0.14,
                     "yScl": 0.14,
                     "color": "#000000",
-                    "layer": 99,
+                    "layer": 9900,
                     "weaponIndex": 0
                 },
                 {
@@ -311,73 +311,73 @@
             ]
         },
         {
-        "type": "RegionPart",
-        "name": "clear-effect",
-        "outline": false,
-        "progress": "warmup",
-        "weaponIndex": 2,
-        "growX": 20,
-        "growY": 20,
-        "children": [
+            "type": "RegionPart",
+            "name": "clear-effect",
+            "outline": false,
+            "progress": "warmup",
+            "weaponIndex": 2,
+            "growX": 20,
+            "growY": 20,
+            "children": [
+            {
+            "type": "RegionPart",
+            "name": "allure-wormhole",
+            "progress": {
+                "type": "heat",
+                "op": "curve",
+                "interp": "pow2In"
+            },
+            "weaponIndex": 2,
+            "layer": 109,
+            "color": "#5a58c4",
+            "colorTo": "#7382f0",
+            "x": -90,
+            "moveX": 90,
+            "xScl": 0.001,
+            "yScl": 0.1,
+            "moves": [
+            {
+                "progress": "heat",
+                "gx": 0.1
+            }
+            ]
+        },
         {
-        "type": "RegionPart",
-        "name": "allure-wormhole",
-        "progress": {
+            "type": "RegionPart",
+            "name": "allure-wormhole",
+            "progress": {
             "type": "heat",
             "op": "curve",
-            "interp": "pow2In"
-        },
-        "weaponIndex": 2,
-        "layer": 109,
-        "color": "#5a58c4",
-        "colorTo": "#7382f0",
-        "x": -90,
-        "moveX": 90,
-        "xScl": 0.001,
-        "yScl": 0.1,
-        "moves": [
-          {
-            "progress": "heat",
-            "gx": 0.1
-          }
-        ]
-      },
-      {
-        "type": "RegionPart",
-        "name": "allure-wormhole",
-        "progress": {
-          "type": "heat",
-          "op": "curve",
-          "interp": "pow2Out"
-        },
-        "weaponIndex": 2,
-        "layer": 109,
-        "color": "#7382f0",
-        "colorTo": "#5a58c4",
-        "x": 0,
-        "moveX": 90,
-        "xScl": 0.101,
-        "yScl": 0.1,
-        "moves": [
-          {
-            "progress": "heat",
-            "gx": -0.1
-          }
-        ]
-      }
-    ],
-    "moves": [
-      {
-        "progress": {
-          "type": "life",
-          "op": "compress",
-          "start": 0.9,
-          "end": 1
-        },
-        "gx": -21,
-        "gy": -21
-      }
+            "interp": "pow2Out"
+            },
+            "weaponIndex": 2,
+            "layer": 109,
+            "color": "#7382f0",
+            "colorTo": "#5a58c4",
+            "x": 0,
+            "moveX": 90,
+            "xScl": 0.101,
+            "yScl": 0.1,
+            "moves": [
+            {
+                "progress": "heat",
+                "gx": -0.1
+            }
+            ]
+        }
+            ],
+            "moves": [
+            {
+                "progress": {
+                "type": "life",
+                "op": "compress",
+                "start": 0.9,
+                "end": 1
+                },
+                "gx": -21,
+                "gy": -21
+            }
+            ]
+        }
     ]
-  }
-]
 }
