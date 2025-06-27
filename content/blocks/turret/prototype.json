@@ -37,14 +37,14 @@
                 "suffix": "-inner",
                 "mirror": true,
                 "under": false,
-                "progress": "warmup",
-                "heatProgress": {
-                "blend": true,
-                "progress": "warmup",
-                "function": "absin",
-                "scl": 2,
-                "mag": 1,
-                "scale": 0.2
+                "heatprogress": "warmup",
+                "Progress": {
+                    "blend": true,
+                    "progress": "warmup",
+                    "function": "absin",
+                    "scl": 2,
+                    "mag": 1,
+                    "scale": 0.2
                 },
                 "heatColor": "#ff6214",
                 "moveX": 2,
@@ -55,14 +55,14 @@
                 "suffix": "-mid",
                 "mirror": false,
                 "under": true,
-                "progress": "warmup",
-                "heatProgress": {
-                "blend": true,
-                "progress": "warmup",
-                "function": "absin",
-                "scl": 2,
-                "mag": 1,
-                "scale": 0.2
+                "heatprogress": "warmup",
+                "Progress": {
+                    "blend": true,
+                    "progress": "warmup",
+                    "function": "absin",
+                    "scl": 2,
+                    "mag": 1,
+                    "scale": 0.2
                 },
                 "heatColor": "#ff6214",
                 "moveY": -8
