@@ -1,0 +1,99 @@
+{
+    "name": "Prototype",
+    "type": "ContinuousLiquidTurret",
+    "category": "turret",
+    "size": 4,
+    "range": 250,
+    "health": 210,
+    "rotateSpeed": 0.9,
+    "aimChangeSpeed": 0.9,
+    "shootY": 0.5,
+    "shootWarmupSpeed": 0.08,
+    "shootCone": 360,
+    "canOverdrive": false,
+    "hasPower": true,
+    "shootSound": "none",
+    "loopSound": "laserbeam",
+    "loopSoundVolume": 1.0,
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [
+            {
+                "type": "RegionPart",
+                "suffix": "-blade",
+                "mirror": true,
+                "under": true,
+                "progress": "warmup",
+                "heatProgress": "warmup",
+                "heatColor": "#ff6214",
+                "moveX": 2,
+                "moveRot": -7,
+                "moves": [
+                    { "progress": "warmup", "x": 0, "y": -2, "rot": 3 }
+                ]
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-inner",
+                "mirror": true,
+                "under": false,
+                "progress": "warmup",
+                "heatProgress": {
+                "blend": true,
+                "progress": "warmup",
+                "function": "absin",
+                "scl": 2,
+                "mag": 1,
+                "scale": 0.2
+                },
+                "heatColor": "#ff6214",
+                "moveX": 2,
+                "moveY": -8
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-mid",
+                "mirror": false,
+                "under": true,
+                "progress": "warmup",
+                "heatProgress": {
+                "blend": true,
+                "progress": "warmup",
+                "function": "absin",
+                "scl": 2,
+                "mag": 1,
+                "scale": 0.2
+                },
+                "heatColor": "#ff6214",
+                "moveY": -8
+            }
+        ]
+    },
+
+    "ammoTypes": {
+        "nitrogen": {
+        "type": "PointLaserBulletType",
+        "damage": 210,
+        "buildingDamageMultiplier": 0.3,
+        "color": "#fda981",
+        "length": 260,
+        "drawSize": 320,
+        "status": "wet",
+        "statusDuration": 60,
+        "oscMag": 0.3,
+        "oscScl": 2,
+        "trailLength": 6
+        }
+    },
+
+    "consumes": {
+        "power": 3.33,
+        "liquids": {
+            "water": 0.1
+        }
+    },
+
+    "requirements": [
+        "silicon/250"
+    ]
+}
