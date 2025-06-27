@@ -71,18 +71,18 @@
     },
 
     "ammoTypes": {
-        "nitrogen": {
-        "type": "PointLaserBulletType",
-        "damage": 210,
-        "buildingDamageMultiplier": 0.3,
-        "color": "#fda981",
-        "length": 260,
-        "drawSize": 320,
-        "status": "wet",
-        "statusDuration": 60,
-        "oscMag": 0.3,
-        "oscScl": 2,
-        "trailLength": 6
+        "water": {
+            "type": "PointLaserBulletType",
+            "damage": 210,
+            "buildingDamageMultiplier": 0.3,
+            "color": "#ff00ff",
+            "length": 260,
+            "drawSize": 320,
+            "status": "wet",
+            "statusDuration": 60,
+            "oscMag": 1,
+            "oscScl": 10,
+            "trailLength": 6
         }
     },
 
