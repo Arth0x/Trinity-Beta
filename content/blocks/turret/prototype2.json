@@ -6,7 +6,7 @@
     "range": 250,
     "health": 210,
     "rotateSpeed": 0.9,
-    "aimChangeSpeed": 0.9,
+    "aimChangeSpeed": 10,
     "shootY": 0.5,
     "shootWarmupSpeed": 0.08,
     "shootCone": 360,
