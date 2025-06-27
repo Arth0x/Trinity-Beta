@@ -83,7 +83,9 @@
             "oscMagMin": 0.8,
             "oscMag": 1,
             "oscScl": 10,
-            "trailLength": 6
+            "trailColor": "#707594",
+            "trailLength": 6,
+            "trailWidth": 2
         }
     },
 
