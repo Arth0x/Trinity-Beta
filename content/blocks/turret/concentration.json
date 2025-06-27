@@ -1,115 +1,110 @@
 {
-  "name": "Cyn",
-  "type": "ContinuousTurret",
-  "category": "turret",
-  "size": 5,
-  "range": 600,
-  "health": 300,
-  "armor": 10,
-  "rotateSpeed": 1.45,
-  "aimChangeSpeed": 1.75,
-  "liquidConsumed": 0.6,
-  "minWarmup": 0.8,
-  "warmupMaintainTime": 45,
-  "shootWarmupSpeed": 0.04,
-  "shootCone": 360,
-  "shootY": 16,
-  "canOverdrive": false,
-  "hasPower": true,
-  "drawer": {
-    "type": "DrawTurret",
-    "parts": [ {
-        "type": "RegionPart",
-        "suffix": "-charger",
-        "mirror": true,
-        "under": true,
-        "moveRot": 10,
-        "moveX": 4.677,
-        "moveY": 6.8
-      },
-      {
-        "type": "RegionPart",
-        "suffix": "-side",
-        "mirror": true,
-        "under": true,
-        "moveRot": 10,
-        "moveX": 2.75,
-        "moveY": 2.0
-      },
-      {
-        "type": "RegionPart",
-        "suffix": "-barrel",
-        "moveY": -7.5,
-        "progress": "recoil"
-      }
-    ]
-  },
-  "shootSound": "none",
-  "loopSound": "largeBeam",
-  "loopSoundVolume": 1.0,
-  "consumes": {
-    "power": 16
-  },
-  
-  "ammoTypes": {
-        "water": {
-  "type": "PointLaserBulletType",
-  "damage": 200,
-  "shieldDamageMultiplier": 2.0,
-  "buildingDamageMultiplier": 0.5,
-  "damageInterval": 6,
-  "sprite": "laser-white",
-  "status": "wet",
-  "statusDuration": 60,
-  "oscScl": 2,
-  "oscMag": 0.3,
-  "trailLength": 8,
-  "color": "#FFFF00",
-  "beamEffectSize": 3,
-  "length": 640,
-  "drawSize": 350,
-
-  "hitEffect": {
-    "type": "ParticleEffect",
-    "line": true,
-    "particles": 7,
-    "cone": -360,
-    "strokeFrom": 2.5,
-    "strokeTo": 0,
-    "lenFrom": 8,
-    "lenTo": 0,
-    "colorFrom": "#3c50ff",
-    "colorTo": "#FF0000"
-  },
-
-  "chargeEffects": [
-    {
-      "type": "CircleShapeEffect",
-      "radius": 21,
-      "stroke": 6,
-      "rotateSpeed": 1.8,
-      "color": "#FFFF00",
-      "layer": "bullet"
+    "name": "Cyn",
+    "type": "ContinuousLiquidTurret",
+    "category": "turret",
+    "size": 5,
+    "range": 600,
+    "health": 300,
+    "armor": 10,
+    "rotateSpeed": 1.45,
+    "aimChangeSpeed": 1.75,
+    "liquidConsumed": 0.6,
+    "minWarmup": 0.8,
+    "warmupMaintainTime": 45,
+    "shootWarmupSpeed": 0.04,
+    "shootCone": 360,
+    "shootY": 16,
+    "canOverdrive": false,
+    "hasPower": true,
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [ {
+                "type": "RegionPart",
+                "suffix": "-charger",
+                "mirror": true,
+                "under": true,
+                "moveRot": 10,
+                "moveX": 4.677,
+                "moveY": 6.8
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-side",
+                "mirror": true,
+                "under": true,
+                "moveRot": 10,
+                "moveX": 2.75,
+                "moveY": 2.0
+            },
+            {
+                "type": "RegionPart",
+                "suffix": "-barrel",
+                "moveY": -7.5,
+                "progress": "recoil"
+            }
+        ]
     },
-    {
-      "type": "CircleShapeEffect",
-      "radius": 25,
-      "stroke": 7.2,
-      "rotateSpeed": -1.1,
-      "color": "#FFFF00",
-      "layer": "bullet"
-    }
-  ],
-
-  "lightColor": "#FFFF00",
-  "lightOpacity": 0.76,
-  "lightRadius": 24
-
-            } 
-  },
-  "requirements": [
-    "copper/150",
-    "lead/80",
-    "titanium/75"
-  ]
+    "shootSound": "none",
+    "loopSound": "largeBeam",
+    "loopSoundVolume": 1.0,
+    "consumes": {
+        "power": 16
+    },
+    "ammoTypes": {
+        "water": {
+            "type": "PointLaserBulletType",
+            "damage": 200,
+            "shieldDamageMultiplier": 2.0,
+            "buildingDamageMultiplier": 0.5,
+            "damageInterval": 6,
+            "status": "wet",
+            "statusDuration": 60,
+            "oscScl": 2,
+            "oscMag": 0.3,
+            "trailLength": 8,
+            "color": "#FFFF00",
+            "beamEffectSize": 3,
+            "length": 640,
+            "drawSize": 350,
+            "hitEffect": {
+                "type": "ParticleEffect",
+                "color": "#FF4040",
+                "line": true,
+                "particles": 7,
+                "cone": -360,
+                "strokeFrom": 2.5,
+                "strokeTo": 0,
+                "lenFrom": 8,
+                "lenTo": 0,
+                "colorFrom": "#3c50ff",
+                "colorTo": "#FF0000"
+            },
+            "lightColor": "#FFFF00",
+            "lightOpacity": 0.76,
+            "lightRadius": 24,
+            "chargeEffects": [
+                {
+                    "type": "CircleShapeEffect",
+                    "radius": 21,
+                    "stroke": 6,
+                    "rotateSpeed": 1.8,
+                    "color": "#FFFF00",
+                    "layer": "bullet"
+                },
+                {
+                    "type": "CircleShapeEffect",
+                    "radius": 25,
+                    "stroke": 7.2,
+                    "rotateSpeed": -1.1,
+                    "color": "#FFFF00",
+                    "layer": "bullet"
+                }
+            ]
+        } 
+    },
+    "requirements": [
+        "copper/150",
+        "lead/80",
+        "titanium/75"
+    ]
 }
